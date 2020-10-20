@@ -1,0 +1,43 @@
+Business Proposal
+----------------------------
+
+Introduction
+------------
+This project is aimed at helping people finding better neighbourhoods in New York. People from different places around the world migrate to USA in search of work and settle down in different states. New York is one such state which attracts a large number of crowd owing to its lively atmosphere and being the heart of United States.
+
+The project helps in making a comparative analysis for the people looking to settle in New York City to search for better neighbourhoods in terms of good schools, vicinity to the supermarkets, ease of commute etc.,
+
+It will help people to become aware of the area and neighbourhood before moving to a city, state, country or place for their work.
+
+Problem
+--------
+The primary goal of the project is to help the person who is a new immigrant in selecting a neighbourhood in the New York City. The selection is made based on variety of factors like: -
+  1.	Vicinity to the super market
+  2.	Ease of commute
+  3.	Presence of reputed schools nearby
+  4.	Less crime rate
+The project is likely guide a person by providing him: -
+  1.	List of houses available along with their cost/rent.
+  2.	List of schools along with their ratings, fees, reviews etc.,
+
+Location
+----------
+Manhattan is one of the popular places for the people willing to settle in New York City. It is one of the densely populated areas in New York and has a rich diversity in terms of social culture and living standards.
+
+Foursquare API
+---------------
+The Four Square API is particularly useful in this project as it will help in finding the places in the vicinity of the houses the new immigrants are considering as their probable home. This will help the people is narrowing down to the ideal place that they have in their mind to settle down with their families.
+
+Clustering Approach
+--------------------
+We will do a comparative analysis of the cities based on the neighbourhoods where we will segment them, and group them into clusters. We will then find similar neighbourhoods in a New York. We will use K-means clustering algorithms which is an unsupervised learning algorithm to generate clusters.
+
+Libraries Required
+-------------------
+Pandas: For creating and manipulating Dataframes.
+Folium: Python visualization library.
+Scikit Learn: For importing k-means clustering.
+JSON: Library to handle JSON files.
+Geocoder: To retrieve Location Data.
+BeautifulSoup and Requests: To scrap and library to handle http requests.
+Matplotlib: Python Plotting Module.
