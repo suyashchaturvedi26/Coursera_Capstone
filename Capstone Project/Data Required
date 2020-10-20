@@ -1,0 +1,20 @@
+FourSquare API
+--------------
+We will need data of the places in the vicinity of the houses in a particular borough. For this, we will have to make a call to FourSquare API with the radius kept to 500 metres. This will fetch the details of all the nearby places which will make it easy for comparative analysis amongst the places under consideration.
+
+The data for the analysis is available from the link mentioned in the lab for the boroughs in New York City. The link to the file is given below: -
+url: https://geo.nyu.edu/catalog/nyu_2451_34572
+
+
+The call to the FourSquare API will return following data as seen in the clustering assignment: -
+
+1. Neighbourhood
+2. Neighbourhood Latitude
+3. Neighbourhood Longitude
+4. Venue
+5. Name of the venue e.g. the name of a store or restaurant
+6. Venue Latitude
+7. Venue Longitude
+8. Venue Category
+
+With the above data at hand, it will be easy to compare the boroughs and select the ideal borough to settle.
